@@ -1,47 +1,22 @@
-*{
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+body {
+    background-color: var(--cor-de-fundo);
+}
+<body>
+    <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
+</body>
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+* {
     margin: 0;
     padding: 0;
-}
-
-.cabeçalho {
-    background-color: #383d58;
-    color:white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px;
-}
-
-.cabeçalho-imagem{
-    width: 20%;
-
-}
-.cabeçalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
-}
-.escola{ 
-background-image:linear-gradient(#424E61,#4EBFE9);
-color:white;
-display:flex;
-justify-content:center;
-align-items: center;
-padding: 24px 0;
-}
-
-.escola-diu-conteudo{
-    width: 35%;}
-.escola-imagem{
-    width:25%;}
-    .escola-titulo{
-        padding:24px 0;
-    }
-
-.escola-texto-um{
-    padding:24px 0;
-    color:white;
-    font-size:24px;
 }
 
 
